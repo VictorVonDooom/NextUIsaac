@@ -4,29 +4,114 @@
     <meta charset="utf-8">
     <meta name="viewport" content="device-width, user-scalable=no">
     <title>Educacion Hoja de Vida Isaac Aburto</title>
-
-    <header>
-      <svg width="320" height="240" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-   <g>
-    <title>Logo Hoja de Vida</title>
-    <rect stroke="#000000" id="svg_1" height="161.99999" width="251.99999" y="4" x="6" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#000000"/>
-    <ellipse stroke="#000000" ry="59" rx="124.00001" id="svg_5" cy="84" cx="134" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ffff00"/>
-    <text font-style="italic" font-weight="bold" stroke="#000000" transform="matrix(2.002268170546697,0,0,2.3023608173361914,-262.89504892399816,-269.3045410459902) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_7" y="160.61189" x="194.46886" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">I.R.A.A.</text>
-   </g>
-  </svg>
-    </header>
-    <h1 id="#Inicio">Curriculum Vitae Isaac Aburto</h1>
   </head>
+
+  <header>
+    <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+     <!-- Se uso Method Draw para crear el logo SVG con un canvas de tamaño 200x100 - http://github.com/duopixel/Method-Draw/ http://editor.method.ac/ -->
+     <g>
+      <title>background</title>
+      <rect fill="#fff" id="canvas_background" height="102" width="202" y="-1" x="-1"/>
+      <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+       <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+      </g>
+     </g>
+     <g>
+      <title>Layer 1</title>
+      <rect id="svg_1" height="105" width="203" y="0" x="-0.5" stroke-width="1.5" stroke="#000" fill="#000000"/>
+      <ellipse stroke="#000" ry="50.999999" rx="101.500007" id="svg_2" cy="49.999999" cx="97.999999" stroke-width="1.5" fill="#FFFA8D"/>
+      <text stroke="#000" transform="matrix(11.123324394226074,0,0,8.5,-916.1608576774597,-442.5) " xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="5" id="svg_3" y="59.882353" x="83.577609" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">I.R.A.A</text>
+     </g>
+    </svg>
+
+    <h1 id="#Inicio">Curriculum Vitae Isaac Aburto</h1>
+  </header>
+
   <body>
     <h2><strong>Datos Personales</strong></h2>
     <h3><strong> <em>Nombres:</em></strong> Isaac Renato</h3>
     <h3><strong> <em>Apellidos:</em></strong> Aburto Alonzo</h3>
     <h3><strong> <em>Lugar de nacimiento:</em></strong> Managua, Nicaragua</h3>
 
-  <a href="../index.html">Inicio</a>
-  <a >|</a>
-  <a href="Educacion.html">Educación</a>
-  <a >|</a>
-  <a href="../Hipervinculos/experiencia.html" >Experiencia Laboral</a>
+    <a href="../index.html">Inicio</a>
+    <a >|</a>
+    <a href="Educacion.html">Educación</a>
+    <a >|</a>
+    <a href="../Hipervinculos/experiencia.html" >Experiencia Laboral</a>
+    <h2>Educacion</h2>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institucion</th>
+          <th>Lugar</th>
+          <th>¿Culmino?</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>2002</td>
+          <td>Colegio Sagrada Familia</td>
+          <td>Managua, Nicaragua</td>
+          <td>2007</td>
+        </tr>
+
+        <tr>
+          <td>2008</td>
+          <td>Colegio Liceo Franciscano</td>
+          <td>Managua, Nicaragua</td>
+          <td>2012</td>
+        </tr>
+
+        <tr>
+          <td>2013</td>
+          <td>Universidad Nacional de Ingenieria</td>
+          <td>Managua, Nicaragua</td>
+          <td>2017</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <form autocomplete="on" name="Agregar Estudios" required>
+      <fieldset>
+        <legend>  <h3>Agregar Estudios</h3></legend>
+        <p>
+          <label for="Año">Año: </label>
+          <select name="Año">
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+          </select>
+        </p>
+
+       <p>
+         <label for="Institucion">Institucion:</label>
+         <input type="text" name="Institucion" placeholder="Ej.:Universidad Nacional de Ingenieria" autofocus required>
+       </p>
+
+       <p>
+         <label for="Lugar">Lugar:  </label>
+         <textarea name="Lugar" id="" cols="100" rows="1" autofocus required></textarea>
+       </p>
+
+       <p>
+       <input type="submit" value="Registrar">
+       </p>
+
+      </fieldset>
+
+    </form>
   </body>
+
+  <footer>
+    <a href="mailto:oyemanagua@hotmail.com" >Enviar Email</a>
+    <a >|</a>
+    <a href="https://www.facebook.com/isaac.aburto" target="_blank">Facebook</a>
+    <a >|</a>
+    <a href="https://www.twitter.com/OeChele" target="_blank">Twitter</a>
+    <a >|</a>
+    <a href="tel:+505 83986580">Telefono</a>
+  </footer>
 </html>
